@@ -56,4 +56,11 @@ describe('FizzBuzz testing', function() {
 
         expect(actualResult).to.equal(expectedResult);
     });
+
+    it ('Get Error when it passed a parameter that is not a number to FizzBuzz function', function() {
+        let actualResult = FizzBuzz("hola");
+        let expectedResult = "Error! FizzBuzz function only accepts numbers as parameter";
+
+        expect(actualResult).to.equal(expectedResult);
+    });
 })
