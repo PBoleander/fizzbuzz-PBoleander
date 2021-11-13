@@ -36,7 +36,7 @@ Añadimos ahora un nuevo *test*: el que prueba el valor 2. Esto debería devolve
 
 ![](Capturas/05.png)
 
-Si añadimos un nuevo caso al *if* podemos solventar esta situación aunque, como veremos más adelante, éste no es el mejor modo de conseguirlo. El *test* pasa con éxito y nos quedamos satisfechos (de momento).
+Si añadimos un nuevo caso al `if` podemos solventar esta situación aunque, como veremos más adelante, éste no es el mejor modo de conseguirlo. El *test* pasa con éxito y nos quedamos satisfechos (de momento).
 
 ![](Capturas/06.png)
 
@@ -87,8 +87,8 @@ Lo ejecutamos y nos devuelve que ambos fallan como vemos en la siguiente captura
 
 Nuestra lógica no es la adecuada. Una posibilidad sería implementar los nuevos casos probados pero eso ya hemos visto que no es buena idea. Lo mejor será reescribir la función para que haga las cosas bien.
 
-Además de implementar el comportamiento de FizzBuzz que ya conocemos, controlaremos que el parámetro pasado a la función sea, efectivamente, del tipo correcto: un número.
+Además de implementar el comportamiento de FizzBuzz que ya conocemos, controlaremos que el parámetro pasado a la función sea, efectivamente, del tipo correcto: un número. Para comprobar que funciona correctamente añadimos un último *test* a nuestro banco de pruebas.
 
-Realizamos las pruebas de nuevo y todas pasan correctamente. Nuestra implementación ahora es correcta y mucho más sencilla que la anterior.
+Realizamos las pruebas de nuevo y todas pasan correctamente. Nuestra implementación ahora es correcta, mucho más sencilla y completa que la anterior.
 
 ![](Capturas/14.png)
