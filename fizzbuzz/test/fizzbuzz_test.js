@@ -42,4 +42,18 @@ describe('FizzBuzz testing', function() {
 
         expect(actualResult).to.equal(expectedResult);
     });
+
+    it ('Get 4 when it passed 4 to FizzBuzz function', function() {
+        let actualResult = FizzBuzz(4);
+        let expectedResult = "4";
+
+        expect(actualResult).to.equal(expectedResult);
+    });
+
+    it ('Get FizzBuzz when it passed 30 to FizzBuzz function', function() {
+        let actualResult = FizzBuzz(30);
+        let expectedResult = "FizzBuzz";
+
+        expect(actualResult).to.equal(expectedResult);
+    });
 })
